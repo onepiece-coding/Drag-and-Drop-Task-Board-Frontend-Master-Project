@@ -125,7 +125,7 @@ form button {
 }
 
 .project-item--body {
-    padding: 1.6rem;
+    padding-top: 1.6rem;
     font-size: 1.6rem;
     font-weight: 600;
     letter-spacing: 0.5px;
