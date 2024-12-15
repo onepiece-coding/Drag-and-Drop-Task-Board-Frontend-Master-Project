@@ -4,7 +4,9 @@ export function autoBind(
     methodName : string,
     descriptor : PropertyDescriptor
 ) {
-    
+
+    console.log(target, methodName);
+
     const method = descriptor.value;
 
     const createDescriptor : PropertyDescriptor = {
