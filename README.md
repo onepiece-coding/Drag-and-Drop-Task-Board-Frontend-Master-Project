@@ -28,10 +28,6 @@ This project is crafted with **TypeScript**, follows **Object-Oriented Programmi
 
 ## ⚙️ **Tech Stack**  
 
-| **Technology**            | **Purpose**                                      |  
-
-|---------------------------|-------------------------------------------------|  
-
 | **TypeScript**            | Ensures type safety and robust development.      |  
 
 | **Vite**                  | Lightning-fast bundler and development server.   |  
