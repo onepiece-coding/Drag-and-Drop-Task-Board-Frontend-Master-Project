@@ -190,8 +190,8 @@ Special thanks to the tools, libraries, and concepts that made this project poss
 
 If you liked this project, don’t forget to ⭐ star the repo and follow me for more exciting content!
 
-GitHub: www.github.com/onepiece-coding
+[GitHub](https://www.github.com/onepiece-coding)
 
-YouTube: www.youtube.com/@OnePieceCoding
+[YouTube](https://www.youtube.com/@OnePieceCoding)
 
-LinkedIn: www.linkedin.com/lahcen-alhiane-0799ba303/
+[LinkedIn](https://www.linkedin.com/in/lahcen-alhiane-0799ba303/)
