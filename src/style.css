@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+    font-family: "Poppins", serif;
+    color: #333;
+}
+
+#app {
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    padding: 1.6rem;
+    display: grid;
+    place-items: start;
+    grid-template-columns: 400px repeat(3, 1fr);
+    gap: 1.6rem;
+    background-image: url(/background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    width: 100%;
+    padding: 1.6rem;
+    background-color: #fff;
+    border-radius: 11px;
+}
+
+.form-control {
+    margin-bottom: 1.6rem;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 0.8rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.form-control input,
+form button {
+    width: 100%;
+    padding: 1.2rem;
+    border-radius: 9px;
+    border: 2px solid #ccc;
+    font-size: 1.6rem;
+    color: inherit;
+}
+
+.form-control input:focus {
+    outline: none;
+}
+
+form button {
+    background-color: transparent;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.projects-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.projects-list--title {
+    padding: 1.6rem;
+    background-color: #fff;
+    border-radius: 9px;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.projects-list--container {
+    height: calc(100vh - (56px + (1.6rem * 3)));
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.project-item {
+    padding: 1.6rem;
+    background-color: #fff;
+    border-radius: 9px;
+}
+
+.project-item--header {
+    padding-bottom: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+}
+
+.project-title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.delete {
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: color 0.4s;
+}
+
+.delete:hover {
+    color: red;
+}
+
+.project-item--body {
+    padding: 1.6rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 1.8;
+}
