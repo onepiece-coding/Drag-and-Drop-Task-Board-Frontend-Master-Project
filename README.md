@@ -4,7 +4,7 @@ Welcome to the **Drag-and-Drop Task Board**, a real-world frontend master projec
 
 This project is crafted with **TypeScript**, follows **Object-Oriented Programming (OOP)**, and embraces industry-standard principles like **SOLID**, **Design Patterns**, and clean code architecture. 🚀
 
-(https://github.com/onepiece-coding/Drag-and-Drop-Task-Board-Frontend-Master-Project/blob/main/public/thumbnail.png)  
+![ALT](https://github.com/onepiece-coding/Drag-and-Drop-Task-Board-Frontend-Master-Project/blob/main/public/thumbnail.png)  
 
 ---
 
