@@ -62,6 +62,7 @@ Follow these simple steps to clone and run the project locally:
 
 ```bash
   git clone https://github.com/onepiece-coding/Drag-and-Drop-Task-Board-Frontend-Master-Project.git
+
   cd Drag-and-Drop-Task-Board-Frontend-Master-Project
 ```
 
